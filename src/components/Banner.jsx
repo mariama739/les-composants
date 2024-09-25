@@ -11,7 +11,7 @@ function Banner() {
           </ul>
         </div>
       </nav>
-      <div className="col-12 col-md-2 diminuer border border-warning border-5 d-flex position-relative top-50 start-50">
+      <div className="col-12 col-md-2 diminuer border border-warning border-5 d-flex ">
         <select className="form-select" aria-label="Default select example">
           <option selected>choisir</option>
           <option value="1">One</option>
@@ -26,4 +26,5 @@ function Banner() {
   );
 }
 
+/*position-relative top-50 start-50*/
 export default Banner;
