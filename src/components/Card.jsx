@@ -16,32 +16,13 @@ function Moncarte() {
           </button>
         </div>
 
-        {/* <div className="row">
-          <div className="col-12">
-            <div className="col-12 col-md-2 diminuer border border-warning border-5 d-flex">
-              <select
-                className="form-select"
-                aria-label="Default select example"
-              >
-                <option selected>choisir</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
-              <div className="p-1">
-                <button className="text-center">classeur</button>
-              </div>
-            </div>
-          </div>
-        </div> */}
-
         <div className="shoppinglist col-12 col-md-8">
           <div className="container-fluid border border-success border-5 ">
             <div className="row">
               <div className="col-md-4">
                 <div className="card" /*style="width: 18rem;"*/>
                   <img
-                    src="component/src/components/images/cacti-1846147_960_720.jpg  "
+                    src="./images/cacti-1846147_960_720.jpg  "
                     className="card-img-top"
                     alt="..."
                   />
@@ -55,8 +36,8 @@ function Moncarte() {
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="card" /*style="width: 18rem;"*/>
-                  <img src="..." className="card-img-top" alt="..." />
+                <div className="card">
+                  <img src="./images/istockphoto-1499045643-1024x1024.jpg" className="card-img-top" alt="..." />
                   <div className="card-body">
                     <h5 className="card-title">Card title</h5>
                     <p className="card-text"></p>
@@ -68,7 +49,11 @@ function Moncarte() {
               </div>
               <div className="col-md-4">
                 <div className="card" /*style="width: 18rem;"*/>
-                  <img src="..." className="card-img-top" alt="..." />
+                  <img
+                    src="./images/plant-8234767_1280.webp"
+                    className="card-img-top"
+                    alt="..."
+                  />
                   <div className="card-body">
                     <h5 className="card-title">Card title</h5>
                     <p className="card-text"></p>
